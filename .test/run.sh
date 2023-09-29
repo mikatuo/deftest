@@ -29,4 +29,6 @@ echo "Running bob.jar"
 java -jar bob.jar --debug build
 
 echo "Starting dmengine_headless"
+# you can pass which collection to run as an argument to the dmengine, in example:
+# --config=bootstrap.main_collection="/test/test.collectionc"
 ./dmengine_headless
